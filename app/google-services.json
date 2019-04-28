@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "271549147480",
+    "firebase_url": "https://appclinic-6290b.firebaseio.com",
+    "project_id": "appclinic-6290b",
+    "storage_bucket": "appclinic-6290b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271549147480:android:12d7aba314793d29",
+        "android_client_info": {
+          "package_name": "com.example.appclinic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKkueDDZNk_g4hieU0wBiNaOSJ4z5RSYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271549147480-l4rk71sqso0nl0jroneo9nr8ad7e9vs5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
