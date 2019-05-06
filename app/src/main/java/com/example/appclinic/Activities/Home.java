@@ -61,7 +61,17 @@ public class Home extends AppCompatActivity
 //               }
 //           });
 
-        Button button2 = findViewById(R.id.btnMenu2);
+
+           Button button1 = findViewById(R.id.btnMenu1);
+           button1.setOnClickListener(new View.OnClickListener() {
+               public void onClick(View v) {
+//                   System.out.println("Button Clicked");
+                   Intent  examActivity = new Intent(getApplicationContext(), ExaminationActivity.class);
+                   startActivityForResult(examActivity,0);
+               }
+           });
+
+           Button button2 = findViewById(R.id.btnMenu2);
         button2.setOnClickListener(new View.OnClickListener() {
                public void onClick(View v) {
 //                   System.out.println("Button Clicked");
